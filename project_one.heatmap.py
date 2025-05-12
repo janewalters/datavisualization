@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 
-# Load your cleaned dataset (replace with your file path if needed)
+# Load cleaned dataset
 df = pd.read_excel("TBR_USA_Dataset.xlsx")
 
 # Filter for the 1990s
