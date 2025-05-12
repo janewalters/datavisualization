@@ -4,7 +4,7 @@ from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.express as px
 
-# Load your reshaped dataset
+# Load dataset
 df = pd.read_excel("TBR_USA_Dataset.xlsx")
 
 # Initialize the Dash app
